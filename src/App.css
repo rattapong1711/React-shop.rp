@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.itemslist-conatainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+  
+}
+
+.items-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+
+}
+.items-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  font-weight: 500;
+  display: flex;
+  padding: 2px 3px;
+  margin: 5px 0px;
+  background-color: #2d5f6d;
+  border-radius: 5px;
+}
+.button {
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 0, 0, 0.75);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;  
+  font-weight: 800;
+  font-size: 18px;
+  color: aliceblue;
+  box-shadow: 0px 0px 10px 10px rgba(13, 13, 13, 0.5) inset;
+}
+.button:hover {
+  background: rgba(202, 1, 1, 0.75);
+}
+.Actionsbutton {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.inputval {
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 0.5rem 0.25rem;
+  border-radius: 8px;
+  font-weight: 700;
+  color: aliceblue;
+  font-size: 18px;
+  box-shadow: 0px 0px 10px 2px rgba(255,255,255,0.5) inset;
+  background: none;
+}
+.total-items {
+  border-radius: 8px;
+  text-shadow: 0px 2px 5px rgba(255,255,255,0.5);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #316878d7;
+  justify-content: center;
+  height: 50%;
+}
+
+.total {
+  display: flex;
+  font-weight: 500;
+  color: yellow;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+.ressetbutton {
+  color: white;
+  background-color: rgba(202, 1, 1, 0.75);
+  padding: 0.75rem 0.5rem;
+  border-radius: 8px;
+  transition: ease 0.25s all;
+  cursor: pointer;
+}
+
+.ressetbutton:hover{
+  font-weight: 600;
+  scale: 1.15;
+  background-color: rgba(171, 2, 2, 0.76);
+
+}
